@@ -1,0 +1,15 @@
+{
+  "name": "insurance-engine",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  },
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm run start",
+    "dev:backend": "uvicorn backend.main:app --reload",
+    "start:backend": "uvicorn backend.main:app --host 0.0.0.0 --port 8000"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "checkpoint_path": "backend/checkpoints/risk_ranker.pt",
+  "input_file": "ranking_labels.jsonl",
+  "sampled_test_rows": 250000,
+  "metrics": {
+    "loss": 0.006998643835544586,
+    "mae": 0.06664334237575531,
+    "rmse": 0.08365790545940399,
+    "policy": {
+      "groups": 27996.0,
+      "baseline_mean_risk": 0.3521190912402979,
+      "ranker_mean_risk": 0.3499285777779543,
+      "risk_reduction_pct": 0.6220944892899127,
+      "baseline_low_risk_rate": 0.041184454922131734,
+      "ranker_low_risk_rate": 0.03771967423917703,
+      "baseline_ranking_target_rate": 0.007251035862266038,
+      "ranker_ranking_target_rate": 0.003750535790827261
+    }
+  }
+}
